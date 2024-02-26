@@ -65,9 +65,13 @@ function FormulaGenerator() {
   }
 
   const changeValue = (value, index) => {
-    if (formulaObject[index].data && formulaObject[index].data.value) {
-      formulaObject[index].data.value = value;
-      setFormulaObject(formulaObject);
+    if (formulaObject[index]?.data && formulaObject[index].data.value) {
+      let obj = formulaObject[index];
+      obj.data = {
+        ...obj.data,
+        value: value
+      }
+      setFormulaObject([...formulaObject]);
     }
   }
 

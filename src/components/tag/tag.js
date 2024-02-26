@@ -5,8 +5,8 @@ import './tag.css';
 function Tag({ data, onValueChange }) {
 
     const onKeyUp = (event) => {
-        if (!isNaN(event.target.value)) {
-            onValueChange(event.target.value)
+        if (!isNaN(event.target.textContent)) {
+            onValueChange(event.target.textContent)
         }
       }
 

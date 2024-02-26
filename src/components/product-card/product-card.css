@@ -1,0 +1,22 @@
+.ntt__wishlist-icon {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 40px;
+}
+
+.ntt__wishlist-icon svg {
+    display: block;
+    fill: #D1D1D1;
+}
+.ntt__wishlist--active svg {
+    fill: red;
+}
+
+@media (max-width: 540px) {
+    .ntt__cards {
+        padding-bottom: 40px;
+    }
+}

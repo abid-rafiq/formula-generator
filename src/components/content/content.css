@@ -1,0 +1,25 @@
+.ntt__section-content {
+    padding: 50px 20px;
+}
+
+.ntt__card-image {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.ntt__card-price-bar {
+    background-color: #E6EEF8;
+    padding: 5px 12px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 540px) {
+    .ntt__section-content {
+        padding: 30px 20px;
+    }
+
+    .ntt__section-title {
+        font-size: 22px;
+    }
+}

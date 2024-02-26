@@ -1,0 +1,31 @@
+.ntt__banner-image {
+    max-width: 100%;
+    display: block;
+}
+
+.ntt__banner .swiper-pagination {
+    padding: 17px;
+    bottom: 0;
+    background-color: #00000073;
+    backdrop-filter: blur(4px);
+    text-align: right;
+    left: initial;
+    right: 0px;
+}
+
+.ntt__banner .swiper-pagination .swiper-pagination-bullet {
+    border: 2px solid #fff;
+    opacity: 1;
+    background-color: #fff;
+}
+
+.ntt__banner .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: transparent;
+}
+
+@media (max-width: 540px) {
+    .ntt__banner-image {
+        height: 360px;
+        object-fit: cover;
+    }
+}

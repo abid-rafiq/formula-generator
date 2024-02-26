@@ -1,0 +1,145 @@
+.ntt__footer {
+  background: #0059bc;
+  color: #ffffff;
+}
+
+.ntt__footer-top {
+  padding: 65px 20px;
+}
+
+.ntt__footer-top-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ntt__footer-column {
+  margin-top: 28px;
+}
+
+.ntt__footer-description {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.ntt__footer-column-1 {
+  width: 50%;
+  margin-top: 0px;
+}
+
+.ntt__footer-column-1-wrapper {
+  width: 100%;
+  max-width: 407px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ntt__footer-signup-form {
+  margin-bottom: 1em;
+}
+
+.ntt__footer-column-links-wrapper {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-inline-start: 0px;
+}
+
+.ntt__footer-column-title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.ntt__footer-column-link {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+.ntt__footer-bottom {
+  padding: 12px 20px;
+}
+
+.ntt__footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ntt__footer-bottom-wrapper a {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ntt__footer-social-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+@media (max-width: 768px) {
+  .ntt__footer-top{
+    padding: 36px 26px;
+  }
+
+  .ntt__footer-bottom {
+    padding: 0px 32px;
+  }
+
+  .ntt__footer-top-wrapper {
+    gap:100px
+  }
+
+  .ntt__footer-column-1 {
+    width: 50%;
+  }
+
+  .ntt__footer-column-2 {
+    width: 50%;
+  }
+
+  .ntt__footer-column-3,
+  .ntt__footer-column-4 {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .ntt__footer-column-2, .ntt__footer-description, .ntt__footer-social {
+    display: none;
+  }
+
+  .ntt__footer-column-1 {
+    width: 100%;
+  }
+
+  .ntt__footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .ntt__footer-bottom-wrapper a {
+    font-size: 14px;
+  }
+
+  .ntt__footer-bottom {
+    padding-bottom: 10px;
+  }
+}

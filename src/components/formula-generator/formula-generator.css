@@ -1,0 +1,59 @@
+.fmg__tag {
+  background-color: #efefef;
+  display: inline-flex;
+  border: 1px solid #bebebe;
+  border-radius: 4px;
+}
+
+.fmg__tag-text {
+  padding: 5px;
+}
+
+.fmg__tag-variable {
+  padding: 5px;
+  background-color: #d4d4d4;
+}
+
+.fmg__input-wrapper {
+  padding: 15px;
+  border: 2px solid #edebeb;
+  border-radius: 10px;
+  /* margin: 20px; */
+}
+
+.fmg__container {
+  position: relative;
+  padding: 20px;
+}
+
+.fmg__autocomplete-wrapper.fmg__autocomplete--open {
+  transform: scaleY(1);
+}
+
+.fmg__autocomplete-wrapper {
+  padding: 0px;
+  background-color: #f3f3f3;
+  border: 1px solid #dfdfdf;
+  position: absolute;
+  width: calc(100% - 40px);
+  border-radius: 0px 0px 10px 10px;
+  transform: scaleY(0);
+  transition: all 0.3s;
+  transform-origin: top;
+  max-height: 540px;
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fmg__autocomplete-wrapper ul {
+  padding: 0px;
+  list-style: none;
+  margin: 0;
+}
+
+.fmg__autocomplete-wrapper ul li {
+  padding: 14px 20px;
+}
